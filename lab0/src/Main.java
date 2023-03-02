@@ -23,13 +23,13 @@ public class Main {
         System.out.println("Q="+Q);
     }
     private void run() {
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Введіть число а=");
-        double a = s.nextDouble();
+        double a = scanner.nextDouble();
         System.out.print("Введіть число b=");
-        double b = s.nextDouble();
+        double b = scanner.nextDouble();
         System.out.print("Введіть число x=");
-        double x = s.nextDouble();
+        double x = scanner.nextDouble();
         double S=calcS(a,b,x);
         double Q=calcQ(a,b,x);
         print (x,S,a,b,Q);
