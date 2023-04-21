@@ -21,7 +21,7 @@ public class Main {
     }
     public void Show_Author() {
 
-        System.out.println("Enter customers Author:");
+        System.out.println("Enter Author:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         for (Book item : books) {
@@ -32,7 +32,7 @@ public class Main {
 
     public void Show_Publisher() {
 
-        System.out.println("Enter customers Publisher:");
+        System.out.println("Enter Publisher:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         for (Book item : books) {
@@ -43,7 +43,7 @@ public class Main {
 
     public void Show_PublishDate() {
 
-        System.out.println("Enter customers PublishDate:");
+        System.out.println("Enter PublishDate:");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         for (Book item : books) {
